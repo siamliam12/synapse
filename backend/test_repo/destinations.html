@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations — Wanderlux</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════ -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Wander<span>lux</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="destinations.html" class="nav__link nav__link--active">Destinations</a></li>
+        <li><a href="index.html#experience" class="nav__link">Experiences</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="about.html#contact" class="nav__link">Contact</a></li>
+        <li><a href="destinations.html" class="nav__link nav__cta">Plan a Trip</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════
+       PAGE HERO
+  ═══════════════════════════════ -->
+  <section class="page-hero">
+    <div class="container page-hero__inner">
+      <div class="page-hero__breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="page-hero__breadcrumb-sep">—</span>
+        <span>Destinations</span>
+      </div>
+      <div class="gold-rule gold-rule--left">
+        <span class="label">180+ Destinations Worldwide</span>
+      </div>
+      <h1 class="display-xl" style="margin-bottom:1.5rem; max-width:700px;">
+        Find Your<br>
+        <em style="color:var(--gold); font-style:italic;">Next</em> Horizon
+      </h1>
+      <p style="font-size:1.05rem; color:var(--text-muted); max-width:550px; line-height:1.8;">
+        From the temples of Southeast Asia to the ice fields of Patagonia —
+        explore our handpicked collection of the world's most extraordinary places.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FILTER BAR
+  ═══════════════════════════════ -->
+  <div class="container" style="padding-bottom:0;">
+    <div class="filter-bar">
+      <span class="filter-bar__label">Filter by</span>
+      <div class="filter-bar__divider"></div>
+      <div class="filter-bar__tags">
+        <span class="filter-tag filter-tag--active">All Regions</span>
+        <span class="filter-tag">Europe & Med</span>
+        <span class="filter-tag">Asia & Pacific</span>
+        <span class="filter-tag">Africa & Safari</span>
+        <span class="filter-tag">The Americas</span>
+        <span class="filter-tag">Middle East</span>
+        <span class="filter-tag">Arctic & Polar</span>
+      </div>
+      <div class="filter-bar__divider"></div>
+      <div class="filter-bar__tags">
+        <span class="filter-tag">Luxury</span>
+        <span class="filter-tag">Adventure</span>
+        <span class="filter-tag">Cultural</span>
+        <span class="filter-tag">Romantic</span>
+        <span class="filter-tag">Family</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════
+       DESTINATIONS FULL GRID
+  ═══════════════════════════════ -->
+  <section style="padding: 2rem 0 3rem;">
+    <div class="container">
+
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem;">
+        <p style="color:var(--text-muted); font-size:0.85rem;">Showing <strong style="color:var(--white);">9</strong> of 180+ destinations</p>
+        <div style="display:flex; gap:0.6rem;">
+          <span class="filter-tag filter-tag--active" style="font-size:0.7rem; padding:0.3rem 0.9rem;">Grid</span>
+          <span class="filter-tag" style="font-size:0.7rem; padding:0.3rem 0.9rem;">List</span>
+        </div>
+      </div>
+
+      <div class="dest-full-grid">
+
+        <!-- Card 1 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-1"></div>
+            <div class="dest-full-card__img-overlay"></div>
+            <div class="dest-full-card__badge">Trending</div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Greece · Europe</div>
+            <h3 class="dest-full-card__title">Santorini</h3>
+            <p class="dest-full-card__desc">Whitewashed villages spilling over volcanic cliffs, caldera sunsets that redefine beauty, and a culinary scene rooted in ancient tradition.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$3,200</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-2"></div>
+            <div class="dest-full-card__img-overlay"></div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Japan · Asia</div>
+            <h3 class="dest-full-card__title">Kyoto & Nara</h3>
+            <p class="dest-full-card__desc">Ancient temples, geisha districts, zen gardens, and bullet trains that whisper past Mount Fuji. Japan distilled to its most poetic essence.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$4,800</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-3"></div>
+            <div class="dest-full-card__img-overlay"></div>
+            <div class="dest-full-card__badge">New Route</div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Morocco · Africa</div>
+            <h3 class="dest-full-card__title">Sahara Desert</h3>
+            <p class="dest-full-card__desc">Sleep beneath a billion stars in a luxury desert camp, ride camels through golden dunes at sunrise, and lose yourself in the ancient medinas.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$2,600</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-4"></div>
+            <div class="dest-full-card__img-overlay"></div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Italy · Europe</div>
+            <h3 class="dest-full-card__title">Amalfi Coast</h3>
+            <p class="dest-full-card__desc">Pastel villages stacked on limestone cliffs above the Tyrrhenian Sea. Days of limoncello, fresh seafood, and the slow hum of la dolce vita.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$3,750</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-5"></div>
+            <div class="dest-full-card__img-overlay"></div>
+            <div class="dest-full-card__badge">Bestseller</div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Maldives · Indian Ocean</div>
+            <h3 class="dest-full-card__title">Private Island</h3>
+            <p class="dest-full-card__desc">Bioluminescent lagoons, overwater bungalows, and reefs teeming with life. The Maldives remains the ultimate expression of oceanic luxury.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$6,200</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-6"></div>
+            <div class="dest-full-card__img-overlay"></div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Iceland · Arctic</div>
+            <h3 class="dest-full-card__title">Northern Lights</h3>
+            <p class="dest-full-card__desc">Chase the aurora across volcanic landscapes in a glass-roofed cabin. Hot springs, ice caves, and the midnight sun await in this land of extremes.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$3,900</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 7 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-7"></div>
+            <div class="dest-full-card__img-overlay"></div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Peru · South America</div>
+            <h3 class="dest-full-card__title">Machu Picchu</h3>
+            <p class="dest-full-card__desc">The lost city of the Incas, perched impossibly in the cloud forest. A private sunrise here, before the crowds, is a life-defining moment.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$4,100</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 8 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-8"></div>
+            <div class="dest-full-card__img-overlay"></div>
+            <div class="dest-full-card__badge">Limited</div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Kenya · Africa</div>
+            <h3 class="dest-full-card__title">Maasai Mara Safari</h3>
+            <p class="dest-full-card__desc">Witness the Great Migration — a spectacle of 1.5 million wildebeest crossing the Mara River. Stay in private conservancies for an experience beyond words.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$7,500</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 9 -->
+        <article class="dest-full-card">
+          <div class="dest-full-card__img">
+            <div class="dest-full-card__img-fake dfc-img-9"></div>
+            <div class="dest-full-card__img-overlay"></div>
+          </div>
+          <div class="dest-full-card__body">
+            <div class="dest-full-card__region">Indonesia · Asia</div>
+            <h3 class="dest-full-card__title">Bali Highlands</h3>
+            <p class="dest-full-card__desc">Beyond the beaches lies a Bali few visit — terraced rice paddies, sacred mountain temples, and authentic village life unchanged for centuries.</p>
+            <div class="dest-full-card__meta">
+              <div class="dest-full-card__price">
+                <span class="dest-full-card__price-from">From</span>
+                <span class="dest-full-card__price-val">$2,900</span>
+              </div>
+              <a href="#" class="dest-full-card__link">Explore <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="load-more">
+        <a href="#" class="btn btn--outline">
+          Load More Destinations <span class="btn__arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       MAP TEASER
+  ═══════════════════════════════ -->
+  <section class="map-teaser">
+    <div class="container">
+      <div class="gold-rule">
+        <span class="label">Worldwide Coverage</span>
+      </div>
+      <h2 class="display-md" style="margin-bottom:0.5rem;">Every Continent. Every Dream.</h2>
+      <p style="color:var(--text-muted); font-size:0.9rem;">Our reach spans 6 continents and 75 countries.</p>
+
+      <div class="map-visual">
+        <div class="map-visual__grid"></div>
+        <div class="map-dot map-dot--1"></div>
+        <div class="map-dot map-dot--2"></div>
+        <div class="map-dot map-dot--3"></div>
+        <div class="map-dot map-dot--4"></div>
+        <div class="map-dot map-dot--5"></div>
+        <div class="map-dot map-dot--6"></div>
+        <div class="map-visual__label">
+          <p class="label" style="margin-bottom:0.5rem;">180+ Destinations</p>
+          <p style="color:var(--text-muted); font-size:0.8rem;">Across 75 countries</p>
+        </div>
+      </div>
+
+      <a href="about.html#contact" class="btn btn--gold">
+        Start Planning Your Journey <span class="btn__arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo" style="font-size:1.8rem;">Wander<span>lux</span></a>
+          <p>Crafting extraordinary journeys for the discerning traveller since 2009. Every itinerary is a love letter to the world.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social" aria-label="Instagram">in</a>
+            <a href="#" class="footer__social" aria-label="Twitter">tw</a>
+            <a href="#" class="footer__social" aria-label="Pinterest">pt</a>
+            <a href="#" class="footer__social" aria-label="Facebook">fb</a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul class="footer__links">
+            <li><a href="destinations.html" class="footer__link">All Destinations</a></li>
+            <li><a href="destinations.html" class="footer__link">Asia & Pacific</a></li>
+            <li><a href="destinations.html" class="footer__link">Europe & Med</a></li>
+            <li><a href="destinations.html" class="footer__link">Africa & Safari</a></li>
+            <li><a href="destinations.html" class="footer__link">The Americas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">Our Story</a></li>
+            <li><a href="about.html" class="footer__link">Our Guides</a></li>
+            <li><a href="about.html" class="footer__link">Sustainability</a></li>
+            <li><a href="about.html" class="footer__link">Press & Awards</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="about.html#contact" class="footer__link">Contact Us</a></li>
+            <li><a href="#" class="footer__link">Travel Insurance</a></li>
+            <li><a href="#" class="footer__link">FAQs</a></li>
+            <li><a href="#" class="footer__link">Gift Experiences</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Wanderlux Ltd. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

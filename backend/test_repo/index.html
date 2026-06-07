@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlux — Curated Journeys for the Discerning Traveller</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════ -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Wander<span>lux</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+        <li><a href="destinations.html" class="nav__link">Destinations</a></li>
+        <li><a href="index.html#experience" class="nav__link">Experiences</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="about.html#contact" class="nav__link">Contact</a></li>
+        <li><a href="destinations.html" class="nav__link nav__cta">Plan a Trip</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════
+       HERO
+  ═══════════════════════════════ -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__grid"></div>
+
+    <div class="hero__image-panel">
+      <div class="hero__img-fake"></div>
+    </div>
+
+    <div class="container hero__content">
+      <div class="hero__eyebrow">
+        <div class="hero__eyebrow-line"></div>
+        <span class="label">Est. 2018 · Premium Travel</span>
+      </div>
+      <h1 class="display-xl hero__title">
+        The World<br>
+        Awaits <em>Your</em><br>
+        Story
+      </h1>
+      <p class="hero__subtitle">
+        Handcrafted journeys for those who seek more than a destination —
+        we design transformative experiences that leave an imprint on the soul.
+      </p>
+      <div class="hero__actions">
+        <a href="destinations.html" class="btn btn--gold">
+          Explore Destinations <span class="btn__arrow">→</span>
+        </a>
+        <a href="about.html" class="btn btn--outline">
+          Our Story
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__stats container">
+      <div>
+        <div class="hero__stat-value">180+</div>
+        <div class="hero__stat-label">Destinations</div>
+      </div>
+      <div>
+        <div class="hero__stat-value">24k</div>
+        <div class="hero__stat-label">Journeys Crafted</div>
+      </div>
+      <div>
+        <div class="hero__stat-value">4.98</div>
+        <div class="hero__stat-label">Avg. Rating</div>
+      </div>
+      <div>
+        <div class="hero__stat-value">15yr</div>
+        <div class="hero__stat-label">Of Excellence</div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-hint__text">Scroll</div>
+      <div class="scroll-hint__line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       MARQUEE BANNER
+  ═══════════════════════════════ -->
+  <div class="featured-banner">
+    <div class="featured-banner__track">
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Santorini, Greece</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Kyoto, Japan</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Machu Picchu, Peru</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Amalfi Coast, Italy</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Bali, Indonesia</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Safari, Kenya</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Northern Lights, Iceland</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Maldives, Indian Ocean</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Patagonia, Argentina</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Sahara Desert, Morocco</span>
+      <!-- Duplicate for seamless loop -->
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Santorini, Greece</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Kyoto, Japan</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Machu Picchu, Peru</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Amalfi Coast, Italy</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Bali, Indonesia</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Safari, Kenya</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Northern Lights, Iceland</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Maldives, Indian Ocean</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Patagonia, Argentina</span>
+      <span class="featured-banner__item"><span class="featured-banner__dot"></span>Sahara Desert, Morocco</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════
+       DESTINATIONS SECTION
+  ═══════════════════════════════ -->
+  <section class="destinations section">
+    <div class="container">
+      <div class="destinations__header">
+        <div>
+          <div class="gold-rule gold-rule--left">
+            <span class="label">Featured Destinations</span>
+          </div>
+          <h2 class="display-lg">Places That<br>Define Wonder</h2>
+        </div>
+        <div>
+          <p class="italic-quote">
+            "Every destination has a secret language — our guides are fluent in all of them."
+          </p>
+          <a href="destinations.html" class="btn btn--outline" style="margin-top:1.5rem">
+            View All Destinations <span class="btn__arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="destinations__grid">
+
+        <article class="dest-card">
+          <div class="dest-card__fake-img dest-1"></div>
+          <div class="dest-card__badge">Trending</div>
+          <div class="dest-card__info">
+            <div class="dest-card__country">Greece</div>
+            <div class="dest-card__name">Santorini</div>
+            <div class="dest-card__tag">Island Escape · 7 Day Package</div>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <div class="dest-card__fake-img dest-2"></div>
+          <div class="dest-card__info">
+            <div class="dest-card__country">Japan</div>
+            <div class="dest-card__name">Kyoto</div>
+            <div class="dest-card__tag">Culture & Zen · 10 Day Journey</div>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <div class="dest-card__fake-img dest-3"></div>
+          <div class="dest-card__badge">New</div>
+          <div class="dest-card__info">
+            <div class="dest-card__country">Morocco</div>
+            <div class="dest-card__name">Sahara</div>
+            <div class="dest-card__tag">Desert Adventure · 5 Days</div>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <div class="dest-card__fake-img dest-4"></div>
+          <div class="dest-card__info">
+            <div class="dest-card__country">Italy</div>
+            <div class="dest-card__name">Amalfi</div>
+            <div class="dest-card__tag">Coastal Luxury · 8 Days</div>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <div class="dest-card__fake-img dest-5"></div>
+          <div class="dest-card__badge">Bestseller</div>
+          <div class="dest-card__info">
+            <div class="dest-card__country">Maldives</div>
+            <div class="dest-card__name">Overwater Villas</div>
+            <div class="dest-card__tag">Luxury Retreat · 6 Days</div>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <div class="dest-card__fake-img dest-6"></div>
+          <div class="dest-card__info">
+            <div class="dest-card__country">Iceland</div>
+            <div class="dest-card__name">Northern Lights</div>
+            <div class="dest-card__tag">Aurora Experience · 7 Days</div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       PHILOSOPHY INTERLUDE
+  ═══════════════════════════════ -->
+  <section style="padding: 5rem 0; background: linear-gradient(180deg, var(--navy-mid), var(--navy));">
+    <div class="container--narrow" style="text-align:center;">
+      <div class="gold-rule">
+        <span class="label">The Wanderlux Way</span>
+      </div>
+      <p class="display-md" style="margin-bottom:1.5rem; text-align:center;">
+        Travel is not about <em style="color:var(--gold); font-style:italic; font-family:var(--ff-display);">escaping</em> life —<br>
+        it's about ensuring life doesn't escape you.
+      </p>
+      <p class="italic-quote" style="max-width:600px; margin:0 auto 2.5rem;">
+        Since 2009, we've been pairing the most curious minds with the most
+        extraordinary corners of our planet. No templates. No crowds. No compromises.
+      </p>
+      <div style="display:flex; gap:3rem; justify-content:center; flex-wrap:wrap; margin-top:3rem;">
+        <div style="text-align:center;">
+          <div style="font-family:var(--ff-display); font-size:2.5rem; font-weight:700; color:var(--gold);">100%</div>
+          <div class="label" style="margin-top:0.3rem;">Tailor-Made</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-family:var(--ff-display); font-size:2.5rem; font-weight:700; color:var(--gold);">24/7</div>
+          <div class="label" style="margin-top:0.3rem;">Concierge</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-family:var(--ff-display); font-size:2.5rem; font-weight:700; color:var(--gold);">0</div>
+          <div class="label" style="margin-top:0.3rem;">Hidden Fees</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       EXPERIENCE SECTION
+  ═══════════════════════════════ -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="experience__inner">
+
+        <div class="experience__visual">
+          <div class="experience__card-stack">
+            <div class="exp-card exp-card--main">
+              <div class="exp-card__img-fake exp-img-1"></div>
+            </div>
+            <div class="exp-card exp-card--accent">
+              <div class="exp-card__img-fake exp-img-2"></div>
+            </div>
+            <div class="exp-badge">
+              <div class="exp-badge__num">4.98</div>
+              <div class="exp-badge__txt">Guest<br>Rating</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience__content">
+          <div>
+            <div class="gold-rule gold-rule--left">
+              <span class="label">Why Wanderlux</span>
+            </div>
+            <h2 class="display-lg">Beyond the<br>Ordinary</h2>
+          </div>
+
+          <div class="experience__lead">
+            <p class="italic-quote">
+              We believe the best journeys aren't found in a brochure.
+              They're crafted through conversation, intuition, and a deep love for the world.
+            </p>
+          </div>
+
+          <div class="exp-features">
+
+            <div class="exp-feature">
+              <div class="exp-feature__icon">✦</div>
+              <div>
+                <div class="exp-feature__title">Bespoke Itineraries</div>
+                <div class="exp-feature__desc">Every journey begins with you. We spend time understanding your desires, pace, and passions before crafting a single day of your trip.</div>
+              </div>
+            </div>
+
+            <div class="exp-feature">
+              <div class="exp-feature__icon">◈</div>
+              <div>
+                <div class="exp-feature__title">Local Insider Access</div>
+                <div class="exp-feature__desc">Our network of 500+ local guides unlock experiences that simply cannot be booked — private dinners, after-hours museum visits, hidden temples.</div>
+              </div>
+            </div>
+
+            <div class="exp-feature">
+              <div class="exp-feature__icon">◇</div>
+              <div>
+                <div class="exp-feature__title">White-Glove Concierge</div>
+                <div class="exp-feature__desc">From the moment you depart to the moment you return, our concierge team is available around the clock to handle every detail.</div>
+              </div>
+            </div>
+
+            <div class="exp-feature">
+              <div class="exp-feature__icon">❋</div>
+              <div>
+                <div class="exp-feature__title">Sustainable Luxury</div>
+                <div class="exp-feature__desc">We partner exclusively with properties and operators that protect the environments and communities we visit.</div>
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <a href="about.html" class="btn btn--gold">
+              Learn Our Approach <span class="btn__arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       TESTIMONIALS
+  ═══════════════════════════════ -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <div class="gold-rule">
+          <span class="label">Traveller Stories</span>
+        </div>
+        <h2 class="display-lg">Words From<br>The Road</h2>
+        <p class="section-header__sub">
+          Our greatest achievement isn't a destination — it's the story
+          a traveller tells when they come home.
+        </p>
+      </div>
+
+      <div class="testimonials__grid">
+
+        <div class="testi-card">
+          <div class="testi-card__stars">★★★★★</div>
+          <p class="testi-card__text">
+            Wanderlux turned what could have been a complicated trip to Japan into an
+            effortlessly magical two weeks. Every detail was considered — even the ones
+            we hadn't thought to ask about.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">S</div>
+            <div>
+              <div class="testi-card__name">Sarah & Michael Chen</div>
+              <div class="testi-card__location">Kyoto & Tokyo, Japan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card" style="transform:translateY(20px)">
+          <div class="testi-card__stars">★★★★★</div>
+          <p class="testi-card__text">
+            The private sunset dinner on the cliffs of Santorini was beyond anything
+            I've ever experienced. I simply gave them a mood and they translated it
+            into reality. Extraordinary.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">A</div>
+            <div>
+              <div class="testi-card__name">Amara Okonkwo</div>
+              <div class="testi-card__location">Santorini, Greece</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-card__stars">★★★★★</div>
+          <p class="testi-card__text">
+            Third trip with Wanderlux and each one has surpassed the last. Our family
+            safari in Kenya was the most profound experience of our lives. The children
+            still talk about it every single day.
+          </p>
+          <div class="testi-card__author">
+            <div class="testi-card__avatar">D</div>
+            <div>
+              <div class="testi-card__name">The Dupont Family</div>
+              <div class="testi-card__location">Maasai Mara, Kenya</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       NEWSLETTER
+  ═══════════════════════════════ -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter__inner">
+        <div>
+          <div class="gold-rule gold-rule--left">
+            <span class="label">Stay Inspired</span>
+          </div>
+          <h2 class="display-md">
+            Rare Places.<br>Delivered Monthly.
+          </h2>
+          <p style="color:var(--text-muted); margin-top:1rem; font-size:0.9rem; line-height:1.8;">
+            Join 42,000 curious travellers receiving our curated dispatches —
+            hidden escapes, seasonal guides, and insider access you won't find anywhere else.
+          </p>
+        </div>
+        <div>
+          <p class="label" style="margin-bottom:1rem;">No spam. Unsubscribe anytime.</p>
+          <div class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="your@email.com">
+            <button class="btn btn--gold" style="flex-shrink:0; padding:0.7rem 1.6rem;">
+              Subscribe
+            </button>
+          </div>
+          <p style="font-size:0.75rem; color:var(--text-muted); margin-top:1rem; line-height:1.6;">
+            By subscribing you agree to our Privacy Policy.
+            We respect your inbox as much as we respect the destinations we visit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo" style="font-size:1.8rem;">Wander<span>lux</span></a>
+          <p>Crafting extraordinary journeys for the discerning traveller since 2009. Every itinerary is a love letter to the world.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social" aria-label="Instagram">in</a>
+            <a href="#" class="footer__social" aria-label="Twitter">tw</a>
+            <a href="#" class="footer__social" aria-label="Pinterest">pt</a>
+            <a href="#" class="footer__social" aria-label="Facebook">fb</a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul class="footer__links">
+            <li><a href="destinations.html" class="footer__link">All Destinations</a></li>
+            <li><a href="destinations.html" class="footer__link">Asia & Pacific</a></li>
+            <li><a href="destinations.html" class="footer__link">Europe & Med</a></li>
+            <li><a href="destinations.html" class="footer__link">Africa & Safari</a></li>
+            <li><a href="destinations.html" class="footer__link">The Americas</a></li>
+            <li><a href="destinations.html" class="footer__link">Arctic & Polar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">Our Story</a></li>
+            <li><a href="about.html" class="footer__link">Our Guides</a></li>
+            <li><a href="about.html" class="footer__link">Sustainability</a></li>
+            <li><a href="about.html" class="footer__link">Press & Awards</a></li>
+            <li><a href="about.html#contact" class="footer__link">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="about.html#contact" class="footer__link">Contact Us</a></li>
+            <li><a href="#" class="footer__link">Travel Insurance</a></li>
+            <li><a href="#" class="footer__link">Visa Assistance</a></li>
+            <li><a href="#" class="footer__link">FAQs</a></li>
+            <li><a href="#" class="footer__link">Gift Experiences</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Wanderlux Ltd. All rights reserved. Crafted with ♦ for curious souls.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
